@@ -1,22 +1,43 @@
-<style>
+
 
 body {
-
+  margin-top: 40;
+  margin-left: 180;
+  margin-right: 180;
+  margin-bottom: 100;
 }
 
 h1 {
-  color: rgb(55, 103, 210);
+  color: #6699FF;
   font-family: verdana, sans-serif
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px grey solid
+}
+
+h3 {
+  margin-left: 20
 }
 
 p {
   font-family: verdana
 }
 
+ul {
+  margin-left: 20
+}
+
 img {
   width: 40%;
   float: right;
-  margin-right: 40
 }
 
-</style>
+.skills {
+  font-family: verdana sans-serif;
+  font-size: 24;
+  word-spacing: 20px;
+  text-align: center;
+}
