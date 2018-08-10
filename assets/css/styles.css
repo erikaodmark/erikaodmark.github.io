@@ -16,10 +16,6 @@ body {
     margin-bottom: 30px;
 }
 
-.image-column {
-    column-count: 2;
-}
-
 .lead {
     margin-bottom: 40px;
 }
