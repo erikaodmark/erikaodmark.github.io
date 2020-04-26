@@ -1,0 +1,203 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  color: #666666;
+  padding: 0;
+}
+.topspace {
+  margin-top: 40px;
+}
+
+.thumbnail {
+    margin-bottom: 30px;
+}
+
+/*********************************************************************
+
+
+                            Navigation in header
+
+
+**********************************************************************/
+
+.nav > li > a {
+  color: #454545;
+  text-align: center;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  font-weight: 700;
+  background-color: #ffffff;
+}
+.nav > .active > a,
+.nav > .active > a:hover,
+.nav > .active > a:focus {
+  font-weight: 700;
+  background-color: #ffffff;
+}
+/****************************************************************************************
+
+
+                                     Resume
+
+
+*****************************************************************************************/
+.resume-main {
+	padding: 0 100px;
+}
+
+.course {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #484848;
+}
+
+.experience-body {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.last-article {
+    margin-bottom: 40px;
+}
+
+.date {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #484848;
+    float: right;
+}
+
+.image-row {
+    margin-bottom: 30px;
+}
+
+/*********************************************************************
+
+
+                                TYPOGRAPHY
+
+
+**********************************************************************/
+p {
+  line-height: 1.6em;
+  margin: 0 0 30px 0;
+}
+ul,
+ol {
+  line-height: 1.6em;
+  margin: 0 0 30px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #333333;
+}
+h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 36px;
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 30px;
+  font-size: 1.875rem;
+}
+h4 {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+a {
+  color: #bd1550;
+}
+a:hover {
+  color: #e93675;
+}
+.lead {
+  font-weight: 300;
+  font-size: 21px;
+  font-size: 1.3125rem;
+}
+.text-msg {
+  line-height: 1.7em;
+  color: #b3b3b3;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: -0.23em;
+}
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+/*********************************************************************
+
+
+                                HEADER
+
+
+**********************************************************************/
+#head {
+  color: #7C7C7C;
+  padding: 30px 0 30px 0;
+}
+#head img.img-circle {
+  display: block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border: 9px solid rgba(0, 0, 0, 0.05);
+  margin: 30px auto;
+}
+#head .title {
+  font-family: Alice, Georgia, serif;
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+
+#head .contact-links {
+    font-size: 0.875rem;
+    color: #5d5d5d;
+    margin: 15px 0 0;
+	color: #5E5E5E;
+}
+
+#head .contact-links a {
+  color: #5E5E5E;
+}
+
+#head .contact-icon {
+    padding: 8px;
+}
